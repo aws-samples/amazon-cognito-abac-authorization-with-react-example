@@ -91,6 +91,7 @@ You should now be able to go to `http://localhost:3000` to view your web-page. Y
 * We do not store your user tokens in LocalStorage or Session Cookies, therefore, whenever the web-page is refreshed, you will have to re-authenticate. Moving between the different pages in the navigation bar is fine.
 * We print the AWS credentials on the S3 Access Tab to showcase refreshing AWS credentials. However, if these credentials were to be leaked, users can call AWS resources with the attached permissions. Currently, the role is scoped down to only allow List* access to the sample S3 files, but make sure to be careful with this mechanism. And again, don't use this for production systems.
 * When running `npm install` you might get a '6 moderate vulnerabilities found' output. See [this issue](https://github.com/facebook/create-react-app/issues/11174) for more details.
+* If you are using AWS Cloud9 to run the sample application, you can change the start script in the `react-sample/package.json` to include the following to change the preview port to 8080: `"start": "PORT=8080 react-scripts start"` 
   
 ## Cleaning up
 Run the following command:
@@ -100,7 +101,7 @@ cdk destroy
 
 Or go to Cloudformation service in your console and delete the deployed stack manually.
 
-**Important** The following resources will automatically delete:
+**Important** The following resources will not automatically delete:
 * The CognitoUser Pool
 * The S3 bucket
 
