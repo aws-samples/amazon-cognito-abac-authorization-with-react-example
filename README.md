@@ -106,3 +106,11 @@ Or go to Cloudformation service in your console and delete the deployed stack ma
 * The S3 bucket
 
 Due to the fact that these two resources may contain data / objects you might want to keep, cdk destroy doesn't automatically delete them. You can still delete both resources manually if you wish.
+
+## Security
+
+See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+
+## License
+
+This library is licensed under the MIT-0 License. See the LICENSE file.
