@@ -1,8 +1,8 @@
 {
-    "bucketName": "anycompany-bucket-c8c13c65279ae359ff039e0001107f0df4de1adbb8",
-    "apiGatewayUrl": "https://97l9gnwbf1.execute-api.eu-west-1.amazonaws.com/Prod/pets",
-    "clientId": "m0182cehqng69ck9te2s3j2qk",
-    "identityPoolId": "eu-west-1:21b01a5b-e1de-4589-b9cf-8146602bc65f",
-    "region": "eu-west-1",
-    "userPoolId": "eu-west-1_WL4FUaPEM"
+    "bucketName": "",
+    "apiGatewayUrl": "",
+    "clientId": "",
+    "identityPoolId": "",
+    "region": "",
+    "userPoolId": ""
 }
