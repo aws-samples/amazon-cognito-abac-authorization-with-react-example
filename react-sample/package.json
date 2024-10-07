@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "amazon-cognito-identity-js": "^5.2.7",
     "aws-sdk": "^2.1354.0",
-    "axios": "^0.26.0",
+    "axios": "^0.28.0",
     "cross-fetch": "^3.1.5",
     "react": "^17.0.2",
     "react-bootstrap": "^2.2.0",
