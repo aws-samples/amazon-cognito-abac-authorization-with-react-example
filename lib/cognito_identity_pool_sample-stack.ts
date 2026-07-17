@@ -15,7 +15,7 @@ export class CognitoIdentityPoolSampleStack extends Stack {
 
     // Create a pre-token-generation lambda function which adds the 'department: Engineering' claim to user-tokens
     const preTokenLambda =  new lambda.Function(this, "PreTokenHandler", {
-      runtime: lambda.Runtime.NODEJS_14_X,
+      runtime: lambda.Runtime.NODEJS_22_X,
       code: lambda.Code.fromAsset("resources"),
       handler: "pre-token-trigger.handler",
     });
